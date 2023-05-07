@@ -659,14 +659,15 @@ ul {
 
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  
+
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-modal:hover, .button-modal {
+.button-modal:hover,
+.button-modal {
   background-color: #404bbf;
   border: none;
 
@@ -716,8 +717,6 @@ ul {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 .button-filter:hover {
@@ -772,30 +771,29 @@ ul {
   color: #434455;
 }
 
-.link-portfolio:hover.img-desk, .link-portfolio:focus.img-desk {
-  transform: translateY(0%);
-}
+
 
 .link-portfolio {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .link-portfolio:hover,
 .link-portfolio:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-
-    
-
 }
+
+.link-portfolio:hover .img-desk, .link-portfolio:focus .img-desk {
+  transform: translateY(0%);
+}
+
+
 
 .img-container {
   position: relative;
   overflow: hidden;
-
 }
 
 .img-desk {
@@ -804,7 +802,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#f4f4fd;
+  color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
