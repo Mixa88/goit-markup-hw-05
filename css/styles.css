@@ -770,7 +770,7 @@ ul {
   color: #434455;
 }
 
-.link-portfolio.card-desk:hover, .link-portfolio.card-desk:focus {
+.link-portfolio:hover.img-desk, .link-portfolio:focus.img-desk {
   transform: translateY(0%);
 }
 
