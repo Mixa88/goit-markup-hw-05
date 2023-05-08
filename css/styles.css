@@ -667,7 +667,7 @@ ul {
 }
 
 .button-modal:hover,
-.button-modal {
+.button-modal:focus {
   background-color: #404bbf;
   border: none;
 
